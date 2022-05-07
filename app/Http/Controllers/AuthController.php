@@ -110,7 +110,7 @@ $input= $request->all();
 
             }
 //            return $totaldeposite;
-            return  view('dashboard', compact('user',  'totaldeposite', 'me',  'bil2', 'bill', 'totalrefer', 'count'));
+            return  view('dashboard', compact('user',  'totaldeposite', 'me',  'bil2', 'bill'));
         }
     }
     public function refer(Request $request)
