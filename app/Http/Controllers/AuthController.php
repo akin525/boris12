@@ -88,13 +88,13 @@ $input= $request->all();
         if (Auth::check()) {
             $user = User::find($request->user()->id);
             $me = Messages::where('status', 1)->first();
-            $refer = refer::where('username', $request->user()->username)->get();
-            $totalrefer = 0;
-            foreach ($refer as $de){
-                $totalrefer += $de->amount;
-
-            }
-            $count = refer::where('username',$request->user()->username)->count();
+//            $refer = refer::where('username', $request->user()->username)->get();
+//            $totalrefer = 0;
+//            foreach ($refer as $de){
+//                $totalrefer += $de->amount;
+//
+//            }
+//            $count = refer::where('username',$request->user()->username)->count();
 
 //            $wallet = wallet::where('username', $user->username)->get();
             $deposite = deposit::where('username', $user->username)->get();
