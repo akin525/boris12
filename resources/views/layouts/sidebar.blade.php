@@ -206,7 +206,7 @@
             </ul>
             <div class="copyright">
                 <p><strong>Borismobilemoney Customer Dashboard</strong> © 2022 All Rights Reserved</p>
-                <p class="fs-12">Design<span class="heart"></span> by Borismobilemoney</p>
+                <p class="fs-12">Design<span class="heart"></span> by 5star</p>
             </div>
         </div>
     </div>
